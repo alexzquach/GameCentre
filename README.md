@@ -1,7 +1,7 @@
 # GameCentre
 A game hub containing 3 different games, written for android by my team and I.
 
-### TEAM CONTRIBUTIONS (WHAT EACH INDIVIDUAL ROUGHLY CONTRIBUTED TO GAMECENTRE)
+### TEAM CONTRIBUTIONS (What each individual roughly contributed to GameCentre)
 Alex Quach:   
  
 * Completed the FileManager class used for saving and loading Serializable classes
