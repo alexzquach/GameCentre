@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:background="#eff5ff">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgSlidingTiles"
+        android:layout_alignStart="@+id/imgSlidingTiles"
+        android:layout_marginStart="147dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="false"
+        android:text="Minesweeper"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgSlidingTiles"
+        android:layout_alignStart="@+id/imgSlidingTiles"
+        android:layout_marginStart="284dp"
+        android:layout_marginBottom="4dp"
+        android:clickable="false"
+        android:text="Powers Plus"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/imgMineSweeper"
+        android:layout_width="127dp"
+        android:layout_height="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="112dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="#eff5ff"
+        app:srcCompat="@drawable/minesweeper_icon" />
+
+    <ImageButton
+        android:id="@+id/imgPowersPlus"
+        android:layout_width="128dp"
+        android:layout_height="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginBottom="111dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="#eff5ff"
+        app:srcCompat="@drawable/powersplus_icon" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="111dp"
+        android:clickable="false"
+        android:text="Welcome! What would you like to play?"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/imgScoreboard"
+        android:layout_width="116dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="24dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/trophy_512"
+        android:background="#bad3ff"
+        tools:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/imgSlidingTiles"
+        android:layout_width="118dp"
+        android:layout_height="175dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="113dp"
+        android:adjustViewBounds="true"
+        android:background="#eff5ff"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/slidingtiles_icon" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgSlidingTiles"
+        android:layout_alignStart="@+id/imgSlidingTiles"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="false"
+        android:text="Sliding Tiles"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/slidingTilesDiff"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imgSlidingTiles"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="394dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioEasy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Easy" />
+
+        <RadioButton
+            android:id="@+id/radioMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Medium" />
+
+        <RadioButton
+            android:id="@+id/radioHard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hard" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="261dp"
+        android:layout_height="31dp"
+        android:layout_above="@+id/slidingTilesDiff"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="-297dp"
+        android:layout_toStartOf="@+id/buttonUndo"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Difficulty"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Games"
+        android:layout_width="163dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-18dp"
+        android:layout_marginBottom="324dp"
+        android:layout_toEndOf="@+id/imgSlidingTiles"
+        android:text="Games"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="115dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignBottom="@+id/imgScoreboard"
+        android:layout_marginStart="-12dp"
+        android:layout_marginBottom="0dp"
+        android:background="#bad3ff"
+        android:text="Log out"
+        android:textSize="18sp" />
+
+</RelativeLayout>

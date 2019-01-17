@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eff5ff">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="248dp"
+        android:text="Welcome to the Game Hub!"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/userNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/userNameText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="249dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="72dp"
+        android:text="Username:" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="262dp"
+        android:text="Password:" />
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="186dp"
+        android:background="#bad3ff"
+        android:text="Sign Up"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/LogInButton"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/SignUpButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="0dp"
+        android:background="#bad3ff"
+        android:text="Login"
+        android:textSize="16sp" />
+</RelativeLayout>

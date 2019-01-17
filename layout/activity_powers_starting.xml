@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faf8ef"
+    tools:context="fall2018.csc2017.GameCentre.PowersPlus.PowersPlusStartingActivity">
+
+    <TextView
+        android:id="@+id/GameText"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="Welcome To Powers Plus! \n Build a random power to its target by swiping!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+
+    <!--<Button-->
+        <!--android:id="@+id/StartButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/GameText"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginTop="169dp"-->
+        <!--android:layout_marginEnd="42dp"-->
+        <!--android:text="New Game" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/LoadButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/GameText"-->
+        <!--android:layout_marginTop="179dp"-->
+        <!--android:layout_marginEnd="13dp"-->
+        <!--android:layout_toStartOf="@+id/StartButton"-->
+        <!--android:text="Load Saved Game" />-->
+
+    <ImageButton
+        android:id="@+id/LoadButton"
+        android:layout_width="165dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="62dp"
+        android:adjustViewBounds="true"
+        android:background="#faf8ef"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/powersplus_loadbutton" />
+
+    <ImageButton
+        android:id="@+id/StartButton"
+        android:layout_width="165dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="227dp"
+        android:layout_marginBottom="62dp"
+        android:adjustViewBounds="true"
+        android:background="#faf8ef"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/powersplus_startbutton" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="311dp"
+        android:layout_height="413dp"
+        android:layout_alignStart="@+id/LoadButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="106dp"
+        android:background="#faf8ef"
+        app:srcCompat="@drawable/powersplus_gameplay" />
+
+</RelativeLayout>
